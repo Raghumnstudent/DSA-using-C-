@@ -1,0 +1,26 @@
+1) what is time complexity T(n) for the following code?
+
+a=1
+b=1
+while(b<=n):
+{
+a+=1
+b+=1
+coun<<"hi";
+}
+
+Time complexity of the code is O(n) ot T(n) = O(n)
+
+2) write the output of the following code n=3
+
+void fun(int n)
+{
+if(n>0)
+{
+cout<<n;
+fun(n-1)
+cout<<n; 
+}
+}
+
+output is 3 2 1 1 2 3
